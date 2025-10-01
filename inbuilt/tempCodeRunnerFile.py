@@ -1,1 +1,1 @@
-zipped_list = zip(list1,list2)
+print(list(zipped_list))
