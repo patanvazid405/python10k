@@ -7,7 +7,7 @@ for i in res:
     print(f"{i[1]} is at position {i[0]}")
 #2
 word = "ojas gambheera"
-fin = list(enumerate(word))
-print(fin)
+# fin = list(enumerate(word))
+# print(fin)
 
 

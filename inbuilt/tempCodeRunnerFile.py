@@ -1,1 +1,2 @@
-print("".join(strr))
+fin = list(enumerate(word))
+# print(fin)
