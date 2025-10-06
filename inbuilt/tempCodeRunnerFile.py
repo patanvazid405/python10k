@@ -1,1 +1,1 @@
-print(list(zipped_list))
+print("".join(strr))

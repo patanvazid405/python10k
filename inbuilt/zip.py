@@ -11,8 +11,8 @@ for name,num,place in zipped_list:
 
 #unzip 
 
-words = [('H',1),("E",2),('L',3),('L',4)]\
-
+words = [('H',1),("E",2),('L',3),('L',4)]
 strr,intt = zip(*words)
-print("".join(strr))
+# print("".join(strr))
+print(strr)
 print(list(intt))
