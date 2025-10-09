@@ -7,7 +7,15 @@ for i in res:
     print(f"{i[1]} is at position {i[0]}")
 #2
 word = "ojas gambheera"
-# fin = list(enumerate(word))
-# print(fin)
+fin = list(enumerate(word,start=0))
+print(fin)
+
+list2 = ["rajesh","niteesh","teja","karthik"]
+rev = list(enumerate(list2,start=1))
+print(rev)
+
+for i in rev:
+    print(f"{i[1]} at position {i[0]}")
+    
 
 
