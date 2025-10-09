@@ -16,3 +16,13 @@ strr,intt = zip(*words)
 # print("".join(strr))
 print(strr)
 print(list(intt))
+
+strs = ["flower","flow","flight"]
+res = list(zip(*strs))
+prefix = ""
+for i in res:
+    if len(set(i)) == 1:
+        prefix+=i[0]
+    else:
+        break
+print(prefix)

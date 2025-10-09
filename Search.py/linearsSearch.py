@@ -7,3 +7,7 @@
 
 # num = [12,34,42,32,14]
 # print(linearSearch(num,2))
+
+
+#linear
+
