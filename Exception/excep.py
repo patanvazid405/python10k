@@ -22,10 +22,10 @@ finally:
     print("program ended")
 
 #reverse a num using recursion
-def reverse(n,rem=0):
-    if n==0:
-        return rem
-    return reverse(n//10,rem*10+n%10)
+# def reverse(n,rem=0):
+#     if n==0:
+#         return rem
+#     return reverse(n//10,rem*10+n%10)
 
-n= 12
-print(reverse(n))
+# n= 12
+# print(reverse(n))

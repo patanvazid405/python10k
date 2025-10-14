@@ -1,27 +1,11 @@
-def eligible(percent):
-#     if percent>75:
-#         print("passed")
-#     else:
-#         raise ValueError("Not Eligible")
+def withdraw(bal,amount):
+    if amount>0:
+        if bal<amount:
+            print(f"Amount: {amount-bal} Withdrawal Successfully")
+    else:
+        raise ValueError("Insufficient Balance")
 
-# try:
-#     eligible(8)
-# except ValueError as msg:
-#     print(msg)
-
-# #assert for strong num
-# import math
-# num = int(input())
-# temp = num
-# res = 0
-# while temp!=0:
-#     rem = temp%10
-#     res += math.factorial(rem)
-#     temp = temp//10
-# assert num == res
-# print("Strong Num")
-
-# #using assert in
-# def validate(num):
-#     for i in num:
-#         pass
+try:
+    withdraw(1200,500)
+except ValueError as msg:
+    print(msg)

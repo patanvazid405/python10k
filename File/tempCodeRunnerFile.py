@@ -1,0 +1,1 @@
+with open("hello.txt","w") as file:
