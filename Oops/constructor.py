@@ -10,6 +10,7 @@ class Bank:
     
     def deposit(self,amount):
         am = self.bal+amount
+        self.bal = am
         print(f"{amount} Deposited Successfully..")
         print(f"Available Balance is {am} ")
     
