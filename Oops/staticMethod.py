@@ -36,8 +36,36 @@ class Bank:
         else:
             print("Not a 4 digit PIN")
 
-
 b1 = Bank(1234567,2300,1812)
 b1.deposit()
 b2 = Bank(1335,1000,1812)
 b2.withdraw()
+
+#other example
+class shopping:
+    def __init__(self, item, price):
+        self.price = price
+        self.item = item
+    
+    @staticmethod
+    def GST(cost):
+        return cost + (cost * 0.0250) + (cost * 0.015)
+    
+    def Payment(self):
+        total = shopping.GST(self.price)
+        print("Final Cost is :", total)
+    
+item1 = shopping("laptop", 43000)
+item1.Payment()
+
+
+class Student:
+    def __init__(self,name,marks):
+        self.marks = marks
+        self.name = name
+    @staticmethod
+    def PassorFail(marks):
+        return  ("passed" if marks>40 else "failed")
+    
+    
+
