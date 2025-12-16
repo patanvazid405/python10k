@@ -26,9 +26,10 @@ def outer():
         nonlocal x
         x+=1
         print("inner",x)
+    inner()
 
 print(outer())
-# inner()
+
 
 
 #2
